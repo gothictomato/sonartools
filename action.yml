@@ -48,7 +48,7 @@ runs:
         OS: ${{ runner.os }}
         ARCH: ${{ runner.arch }}
         INSTALL_PATH: ${{ inputs.installation-path }}
-        SONAR_HOST_URL: 'https://sonarcloud.io'
+        SONAR_HOST_URL: 'https://sonar.gothictomato.io'
         SONAR_SCANNER_VERSION: ${{ steps.sonar-scanner-version.outputs.sonar-scanner-version }}
         SONAR_SCANNER_URL_WINDOWS: ${{ steps.sonar-scanner-version.outputs.sonar-scanner-url-windows }}
         SONAR_SCANNER_SHA_WINDOWS: ${{ steps.sonar-scanner-version.outputs.sonar-scanner-sha-windows }}
