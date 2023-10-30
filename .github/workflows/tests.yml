@@ -328,7 +328,7 @@ jobs:
       - name: SONAR_HOST_URL is set
         shell: bash
         run: |
-          [[ $SONAR_HOST_URL == "https://sonarcloud.io" ]]
+          [[ $SONAR_HOST_URL == "https://sonar.gothictomato.io" ]]
 
       - name: sonar-scanner is installed and in PATH
         run: |
