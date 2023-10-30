@@ -91,7 +91,7 @@ runs:
       id: setup-outputs
       shell: bash
       env:
-        SONAR_HOST_URL: 'https://sonarcloud.io'
+        SONAR_HOST_URL: 'https://sonar.gothictomato.io'
         SONAR_SCANNER_DIR: ${{ steps.configure_paths.outputs.sonar-scanner-dir }}
         SONAR_SCANNER_BIN: ${{ steps.configure_paths.outputs.sonar-scanner-bin }}
         BUILD_WRAPPER_DIR: ${{ steps.configure_paths.outputs.build-wrapper-dir }}
